@@ -11,7 +11,7 @@
     $data = $conn->query("SELECT * FROM students");
 
     while ($row = $data->fetch_object()) {
-        echo"". $row->id ."". $row->name . "<br>";
+        echo"". $row->id ." ". $row->name . "<br>";
     
     }
     
