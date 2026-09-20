@@ -5,3 +5,4 @@
  <? echo "hai short"; ?>
  <!-- short sircuit -->
  <?= "hai with out echo "?>
+ <h1>Hi</h1>
