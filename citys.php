@@ -8,7 +8,14 @@ array_shift($city);
 print_r($city);
 array_pop($city);
 print_r($city); 
-for ($i = 0; $i < count($city); $i++) {
-    echo $city[$i] ,"<br>";
-};
-?>
+// for ($i = 0; $i < count($city); $i++) {
+//     echo $city[$i] ,"<br>";
+// };
+$i = 0;
+// while ($i < count($city)) {
+//     echo $city[$i], "<br>";
+//     $i++;
+// }
+foreach($city as $ct){
+    echo $ct . "<br>";
+}
